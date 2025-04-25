@@ -50,6 +50,4 @@ def detect_objects():
         "image_base64": encoded_img
     })
 
-if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 8000)) 
-    app.run(debug=True, host='0.0.0.0',port=port)  # Use host='0.0.0.0' to make it accessible on LAN
+  # Use host='0.0.0.0' to make it accessible on LAN
